@@ -1,0 +1,14 @@
+﻿[Inserte aquí las respuestas a las preguntas del numeral 1]
+
+
+1. El player usa un OverlapSphere para detectar los eneimigos dentro del radio y asi modifica u rotacion hacia ellos;
+
+2. Existen 2, que la velocidad sea 0 o que no este asignado el personje en el editor;
+
+3. Se instancia la clase bullet por medio de Instantiate(), despues se le asignan sus parametros por medio del metodo SetParams() 
+y por ultimo se llama el metodo interno Toss(), que le aplica fuerza a la bala.
+
+4. Un enum que define el tipo de enemigo, un acceso privado al enum, color, renderer, velocidad. Y tiene dos propiedades
+encapsuladas Atk y HP las cuales pueden ser de lectura publica y de modificacion protegida.
+
+5. El instigator verifica si la bala choca con algo diferente al propio gameObject y destruye la bala al hacerlo.
