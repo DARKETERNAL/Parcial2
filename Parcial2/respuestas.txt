@@ -1,1 +1,23 @@
 [Inserte aquÃ­ las respuestas a las preguntas del numeral 1]
+
+1.
+
+a.
+
+El mecanismo que utiliza el player para determinar hacia donde disparara la bala es un Trigger que en el momento que deje de detectar que no hay enemigos , llamara a la funcion encargada de hacerle daño a los enemigos y destruira a estos.
+
+b.
+
+Si el enemigo colisiona con el jugador , la variable que le permite moverse hacia el pasara a ser falsa , y en este caso en especifico es en el que el enemigo dejara de moverse hacia el jugador ,  por que ya lo esta colisionando o en el caso de un bug.
+
+c.
+
+El mecanismo que se esta utilizando para instanciar las balas del jugador es un diccionario SetParams , produciendo un cambio en los valores  de una ruta unica , segun lo identificado por la ruta clave requerida que obtiene los nuevos parametros. 
+
+d.
+
+El enemigo esta usando en su mayoria de miembros diferentes niveles de proteccion , en el script hay datos publicos , privados y protegidos  , al constructor se le estan asignando sus debidos valores , a cada propiedad de le esta asignando su tipo de dato y una variable , la mayoria de variables pueden ser serializadas por el inspector y a una variable en especifico se le esta asignando un valor nulo.
+
+e.
+
+La funcion que cumple el atributo instigator en la bala es la de que cuando otro game object sea distinto del instigator , se destruya ese game object y asi poder cumplir con el objetivo de daño que tiene la bala.
