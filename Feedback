@@ -1,0 +1,18 @@
+Feedback
+
+1. OK (0.3)
+2. OK (0.3)
+3. OK (0.3)
+4. OK (0.3)
+5. Qué es "el propio gameobject"? Entiendo "el de la bala", lo cual es incorrecto Recordá que en Unity todo cuanto exista en la escena es un gameobject (0.1)
+
+Código
+1. No encuentro el controlador de instancias o las fábricas de enemigos (0.0)
+2. OK (0.5)
+3. No encuentro código de control de olas (0.0)
+4. No hay botón dedicado a la bala especial, la restricción de la bala variada no es la pedida. (0.6) Por cierto... Por qué no usaste herencia entre las balas? Lo único que cambiaba era el efecto al destruirse la bala. Por todo lo demás, era lo mismo.
+5. OK (0.1). Nuevamente, el tema de herencia. Un solo pool podía encargarse de ambas balas, o podrías haber hecho un pool base y heredar de ese para la lógica de un pool.
+
+Total: 2.5
+
+Nota: Tratá de subir las cosas en las rutas específicas. Es un infierno acomodar a mano los scripts en Unity para verlo correr.
