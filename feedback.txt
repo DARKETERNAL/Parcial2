@@ -1,0 +1,16 @@
+Feedback
+
+1. No exactamente. El mecanismo no es el trigger únicamente, y el resultado no es llamar una función que destruya o haga daño a los enemigos. Eso lo hace la bala. El trigger sirve para determinar a dónde va a girar el personaje, al detectar un enemigo. (0.1)
+2. Falta el caso en que la velocidad del enemigo sea 0 (0.2)
+3. SetParams() es un método, no un diccionario, y no es lo que instancia la bala (0.0)
+4. OK (0.3)
+5. Describe bien qué hace el la referencia a 'instigator', pero no dice exactamente para qué sirve. Es básicamente, la referencia a quién instanció la bala (0.2)
+
+Código
+1. No hay controlador de instancias de enemigos, ni fábricas (0.0)
+2. El botón no parece deshabilitarse de acuerdo a lo que se pide. Además, el componente solo existe en el alcance del Start(), por lo que habilitarlo o deshabilitarlo requeriría otro GetComponent(). Por otro lado... Tenías la referencia directa al botón en el inspector. Sobraba el GetComponent() del start (0.0)
+3. No hay controlador de olas (0.0)
+4. No hay variación de bala con los requisitos pedidos (0.0)
+5. No hay pool de balas (0.0)
+
+Total: 0.8
